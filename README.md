@@ -106,6 +106,7 @@ This allows for a linear fit to find a and b, as shown in Figures.
 
 4.	Results:
 o	Figures 1 to 16 show the estimated pore pressures for Wells NGHP-01-08A and NGHP-01-19B using both Bower’s and Eaton’s methods.
+
 ![image](https://github.com/user-attachments/assets/539023cc-061a-4836-83cd-c42c286a9517)
 ![image](https://github.com/user-attachments/assets/fe62e0b2-b783-49d4-b362-0407b304aef1)
 ![image](https://github.com/user-attachments/assets/baf609f4-acf0-490c-a12e-8dafc8fca6ab)
@@ -113,12 +114,12 @@ o	Figures 1 to 16 show the estimated pore pressures for Wells NGHP-01-08A and NG
 
 
 6.	Conclusions:
- ![image](https://github.com/user-attachments/assets/2317db7e-ff61-4f60-88c9-85b502a1512c)
-
 1.	Prediction accuracy improves with the number of input logs used for training in both wells.
 2.	Models perform well with sonic, density, velocity, and gamma-ray logs, but accuracy increases further when Eaton's pore pressure and hydrostatic pressure are included in the training.
 3.	Random Forest outperforms K-Nearest Neighbors, Decision Tree, and Extreme Gradient Boosting models.
 4.	Using Eaton’s method with sonic, density, velocity, gamma, and hydrostatic pressure as inputs yields the best accuracy for Well 8 with the Random Forest model (Fig. 17).
 5.	This study provides new insights into geomechanical processes in gas hydrate zones.
+
+![image](https://github.com/user-attachments/assets/2317db7e-ff61-4f60-88c9-85b502a1512c)
 
 
