@@ -1,10 +1,11 @@
-Importance of Pore Pressure Prediction
+**Importance of Pore Pressure Prediction
 •	Pore pressure (PP) represents hydraulic forces in the pore spaces of porous rock formations.
 •	Overpressure occurs when PP exceeds recommended levels, posing risks to wellbore stability and drilling safety. Accurate PP forecasting is critical for maintaining drilling safety and ensuring wellbore stability.
-Machine Learning in Pore Pressure Prediction
+**Machine Learning in Pore Pressure Prediction
 •	Empirical Approaches:
 o	Eaton and Bower's methods are employed to estimate vertical stress (𝜎𝑣), PP, and hydrostatic pressure (HP).
 o	Inputs include petrophysical logs: density, gamma ray, sonic log, and P-wave velocity.
+
 •	Machine Learning Models:
 o	Models used: Random Forest (RF), Extreme Gradient Boosting (XGB), K-Nearest Neighbors (KNN), and Decision Tree (DT).
 o	Input combinations: 
@@ -28,12 +29,17 @@ o	BSR helps identify gas hydrates through seismic reflections.
 o	Indicates polarity difference due to contrasting properties of gas hydrate and free gas layers.
 o	Often intersects structural and stratigraphic reflections, aiding geological identification.
 o	Absence of BSR does not confirm the absence of gas hydrates.
-Petrophysical Log Observations
+
+**Petrophysical Log Observations
 •	Within GHSZ: 
 o	Higher P-wave velocity, resistivity, and density.
 o	Gamma log values (65–160 API) suggest clay or silt presence.
 •	Below GHSZ: 
 o	P-wave velocity peaks just below GHSZ and then drops abruptly.
+o	Observations: 
+	Pore pressure increases with depth to maintain hydrostatic balance.
+	Around the BSR, there’s a small rise in pore pressure, suggesting the presence of free gas below the gas hydrate zone.
+
 Well Details and BSR Depths
 •	Well NGHP-01-19B: 
 o	Seafloor: 1433 m.
@@ -45,8 +51,8 @@ o	Seafloor: 1701 m.
 o	BSR: 257 mbsf.
 ![image](https://github.com/user-attachments/assets/95020681-a838-43b5-ad08-ee273bef840f)
 
-This passage discusses the theories and methods for pore pressure prediction in subsurface formations, focusing on the effective stress rule and Eaton's Method. Here's a breakdown for easier understanding:
-Effective Stress Rule (Terzaghi and Biot):
+
+**Effective Stress Rule (Terzaghi and Biot):
 •	Effective Stress (σe): The stress that directly impacts the rock grains and controls compaction and strength.
 •	Overburden Stress (σv): The total stress exerted by the weight of overlying sediments, including the rock and water above the measurement point.
 •	Pore Pressure (PP): The pressure of fluids (like water or gas) within the pores of the sediment or rock.
@@ -101,22 +107,13 @@ This allows for a linear fit to find a and b, as shown in Figures.
 4.	Results:
 o	Figures 1 to 16 show the estimated pore pressures for Wells NGHP-01-08A and NGHP-01-19B using both Bower’s and Eaton’s methods.
 ![image](https://github.com/user-attachments/assets/539023cc-061a-4836-83cd-c42c286a9517)
-
 ![image](https://github.com/user-attachments/assets/fe62e0b2-b783-49d4-b362-0407b304aef1)
-
 ![image](https://github.com/user-attachments/assets/baf609f4-acf0-490c-a12e-8dafc8fca6ab)
-
 ![image](https://github.com/user-attachments/assets/7839a8b7-5985-4715-a568-1652fcadac4a)
 
 
-
-
-o	Observations: 
-	Pore pressure increases with depth to maintain hydrostatic balance.
-	Around the BSR, there’s a small rise in pore pressure, suggesting the presence of free gas below the gas hydrate zone.
-
 6.	Conclusions:
-    ![image](https://github.com/user-attachments/assets/2317db7e-ff61-4f60-88c9-85b502a1512c)
+ ![image](https://github.com/user-attachments/assets/2317db7e-ff61-4f60-88c9-85b502a1512c)
 
 1.	Prediction accuracy improves with the number of input logs used for training in both wells.
 2.	Models perform well with sonic, density, velocity, and gamma-ray logs, but accuracy increases further when Eaton's pore pressure and hydrostatic pressure are included in the training.
