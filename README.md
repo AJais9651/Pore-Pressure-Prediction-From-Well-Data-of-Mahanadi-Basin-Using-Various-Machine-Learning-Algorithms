@@ -41,6 +41,7 @@ o	BSR: 208 m below seafloor (mbsf).
 •	Well NGHP-01-8A: 
 o	Seafloor: 1701 m.
 o	BSR: 257 mbsf.
+![image](https://github.com/user-attachments/assets/95020681-a838-43b5-ad08-ee273bef840f)
 
 This passage discusses the theories and methods for pore pressure prediction in subsurface formations, focusing on the effective stress rule and Eaton's Method. Here's a breakdown for easier understanding:
 Effective Stress Rule (Terzaghi and Biot):
