@@ -1,4 +1,4 @@
-**Importance of Pore Pressure Prediction
+Importance of Pore Pressure Prediction
 •	Pore pressure (PP) represents hydraulic forces in the pore spaces of porous rock formations.
 •	Overpressure occurs when PP exceeds recommended levels, posing risks to wellbore stability and drilling safety. Accurate PP forecasting is critical for maintaining drilling safety and ensuring wellbore stability.
 **Machine Learning in Pore Pressure Prediction
@@ -30,7 +30,7 @@ o	Indicates polarity difference due to contrasting properties of gas hydrate and
 o	Often intersects structural and stratigraphic reflections, aiding geological identification.
 o	Absence of BSR does not confirm the absence of gas hydrates.
 
-**Petrophysical Log Observations
+Petrophysical Log Observations
 •	Within GHSZ: 
 o	Higher P-wave velocity, resistivity, and density.
 o	Gamma log values (65–160 API) suggest clay or silt presence.
@@ -70,6 +70,7 @@ o	It's calculated using:
 	z = depth below the ocean floor.
 Normal Compaction Trend:
 As sediments get buried, they compact under increasing overburden stress, which reduces porosity and changes properties like sonic travel time.
+
 ![image](https://github.com/user-attachments/assets/3dead9f1-c215-42c9-bebe-28508fb17795)
 
 
@@ -96,9 +97,9 @@ Where:
 o	This method relates effective stress to seismic wave velocity.
 o	The relationship is expressed as: 
 Where: 
-	V: Observed velocity,
-	Vo: Velocity at the seafloor,
-	a and b: Fitting parameters (calculated from data).
+	V: Observed velocity,
+	Vo: Velocity at the seafloor,
+	a and b: Fitting parameters (calculated from data).
 3.	Logarithmic Form:
 o	By taking the logarithm of the equation: 
 o	The equation becomes linear (Y= bX + C) and can be plotted as: 
@@ -110,6 +111,7 @@ o	Figures 1 to 16 show the estimated pore pressures for Wells NGHP-01-08A and NG
 ![image](https://github.com/user-attachments/assets/539023cc-061a-4836-83cd-c42c286a9517)
 ![image](https://github.com/user-attachments/assets/fe62e0b2-b783-49d4-b362-0407b304aef1)
 ![image](https://github.com/user-attachments/assets/baf609f4-acf0-490c-a12e-8dafc8fca6ab)
+
 ![image](https://github.com/user-attachments/assets/7839a8b7-5985-4715-a568-1652fcadac4a)
 
 
