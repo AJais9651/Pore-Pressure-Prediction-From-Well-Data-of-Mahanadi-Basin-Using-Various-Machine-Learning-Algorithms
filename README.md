@@ -44,13 +44,10 @@ Well Details and BSR Depths
 •	Well NGHP-01-19B: 
 o	Seafloor: 1433 m.
 o	BSR: 208 m below seafloor (mbsf).
-![image](https://github.com/user-attachments/assets/113df9c1-57a6-44d5-9f13-764a3ce0346b)
 
 •	Well NGHP-01-8A: 
 o	Seafloor: 1701 m.
 o	BSR: 257 mbsf.
-![image](https://github.com/user-attachments/assets/95020681-a838-43b5-ad08-ee273bef840f)
-
 
 **Effective Stress Rule (Terzaghi and Biot):
 •	Effective Stress (σe): The stress that directly impacts the rock grains and controls compaction and strength.
@@ -70,12 +67,6 @@ o	It's calculated using:
 	z = depth below the ocean floor.
 Normal Compaction Trend:
 As sediments get buried, they compact under increasing overburden stress, which reduces porosity and changes properties like sonic travel time.
-
-![image](https://github.com/user-attachments/assets/3dead9f1-c215-42c9-bebe-28508fb17795)
-
-
-![image](https://github.com/user-attachments/assets/81eee21e-86c2-4ebe-bf40-e65e06d4e917)
-
 
 
 Eaton’s Sonic Method:Uses sonic compressional travel time to estimate pore pressure:
@@ -108,12 +99,6 @@ This allows for a linear fit to find a and b, as shown in Figures.
 4.	Results:
 o	Figures 1 to 16 show the estimated pore pressures for Wells NGHP-01-08A and NGHP-01-19B using both Bower’s and Eaton’s methods.
 
-![image](https://github.com/user-attachments/assets/539023cc-061a-4836-83cd-c42c286a9517)
-![image](https://github.com/user-attachments/assets/fe62e0b2-b783-49d4-b362-0407b304aef1)
-![image](https://github.com/user-attachments/assets/baf609f4-acf0-490c-a12e-8dafc8fca6ab)
-
-![image](https://github.com/user-attachments/assets/7839a8b7-5985-4715-a568-1652fcadac4a)
-
 
 6.	Conclusions:
 1.	Prediction accuracy improves with the number of input logs used for training in both wells.
@@ -122,6 +107,6 @@ o	Figures 1 to 16 show the estimated pore pressures for Wells NGHP-01-08A and NG
 4.	Using Eaton’s method with sonic, density, velocity, gamma, and hydrostatic pressure as inputs yields the best accuracy for Well 8 with the Random Forest model (Fig. 17).
 5.	This study provides new insights into geomechanical processes in gas hydrate zones.
 
-![image](https://github.com/user-attachments/assets/2317db7e-ff61-4f60-88c9-85b502a1512c)
+
 
 
