@@ -1,1 +1,18 @@
-this is the sample file.
+Correlation matrix
+This heatmap shows the correlation between key healthy log parameters and pore pressure 
+High Correlation:
+Eaton_PP and Bower_PP (0.82): A strong correlation suggests that both methods produce consistent pressure estimations.
+HP (Hydrostatic Pressure) and Eaton_PP (0.99): This indicates that Eaton's pore pressure model is susceptible to hydrostatic pressure variations.
+Sonic and Velocity (-1.00): A perfect negative correlation, as expected, since Velocity increases with compacted formations.
+Gamma Ray (GR) shows minimal correlation with pore pressure (-0.10 to 0.20), indicating limited direct influence on pressure estimations.
+Significance:
+Highlights the most influential parameters for pore pressure prediction, such as hydrostatic pressure, sonic Velocity, and density.
+Negative correlations (e.g., between sonic and pressure) are essential for calibrating predictive models.
+It helps optimize input variables for advanced machine learning models, reducing redundancy while maximizing predictive power.
+
+Scatter Plot
+This scatter plot compares the predicted pore pressure (using RF,XGB,KNN and AD model) against the actual measured pore pressure for well NGHP-01-19B.
+for the input 2 sctter plot shows the good prediction.
+among the 4 models , RF model for input 2 dhowing the best result.
+The high R² value indicates how excellent the predictive accuracy for pore pressure estimation.
+A few deviations may highlight intervals with unexpected formation properties or model limitations.
