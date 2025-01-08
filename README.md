@@ -54,13 +54,13 @@ o	BSR: 257 mbsf.
 •	Overburden Stress (σv): The total stress exerted by the weight of overlying sediments, including the rock and water above the measurement point.
 •	Pore Pressure (PP): The pressure of fluids (like water or gas) within the pores of the sediment or rock.
 
-Equation:     PP=(σv−σe)/α
+Equation:     $$PP=(σv−σe)/α$$
 α: Biot's effective stress coefficient, which accounts for how pore pressure supports the overburden load.
 Eaton’s Method for Pore Pressure Prediction:
 Vertical Stress (σv):
 o	Vertical stress depends on the weight of sediments and water above the measurement point.
 o	It's calculated using:
-                             Where: 
+                             Where: $$P = ρ(z).g.h
 	g = acceleration due to gravity (9.852 m/s²),
 	ρ(z) = density of sediments with depth,
 	h = seabed depth,
@@ -79,7 +79,7 @@ Bower's Method:
 This is an advanced approach to predicting pore pressure based on effective stress and wave velocities.
 Key Concepts:
 1.	Effective Stress Equation:
-o	Effective stress is calculated as: σe=Sv−PP
+o	Effective stress is calculated as: $$σe=Sv−PP$$
 Where: 
 	Sv: Overburden stress,
 	PP: Pore pressure.
