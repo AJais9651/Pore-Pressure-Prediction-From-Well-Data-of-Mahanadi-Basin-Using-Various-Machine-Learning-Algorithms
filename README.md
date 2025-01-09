@@ -1,4 +1,4 @@
-# Importance of Pore Pressure Prediction
+## Importance of Pore Pressure Prediction
 
 Pore pressure (PP) represents the hydraulic forces within the pore spaces of porous rock formations. Overpressure occurs when PP exceeds recommended levels, posing significant risks to wellbore stability and drilling safety. Accurate PP forecasting is critical for maintaining drilling safety and ensuring wellbore stability.
 
@@ -81,8 +81,9 @@ Pore pressure (PP) represents the hydraulic forces within the pore spaces of por
 - **Pore Pressure (PP)**: Pressure of fluids (like water or gas) within the pores of the sediment or rock.
 
 ### Equation
+
 $$\[PP = \frac{(\sigma_v - \sigma_e)}{\alpha}\]$$
-Where:
+
 - $$\(\alpha\)$$: Biot's effective stress coefficient, accounting for how pore pressure supports the overburden load.
 
 ---
@@ -93,7 +94,7 @@ Where:
 - **Dependence**: Vertical stress depends on the weight of sediments and water above the measurement point.
 - **Formula**:
 $$\[\sigma_v = \rho_s h g + \int_k^z \rho(z) g \, dz\]$$
-Where:
+
 - $$\(g\)$$: Acceleration due to gravity (9.852 m/s²).
 - $$\(\rho(z)\)$$: Density of sediments with depth.
 - $$\(h\)$$: Seabed depth.
