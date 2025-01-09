@@ -76,14 +76,14 @@ Pore pressure (PP) represents the hydraulic forces within the pore spaces of por
 ## Effective Stress Rule (Terzaghi and Biot)
 
 ### Key Definitions
-- **Effective Stress (\(\sigma_e\))**: Stress that directly impacts rock grains and controls compaction and strength.
-- **Overburden Stress (\(\sigma_v\))**: Total stress exerted by the weight of overlying sediments, including the rock and water above the measurement point.
+- **Effective Stress $$(\(\sigma_e\))$$**: Stress that directly impacts rock grains and controls compaction and strength.
+- **Overburden Stress $$(\(\sigma_v\))$$**: Total stress exerted by the weight of overlying sediments, including the rock and water above the measurement point.
 - **Pore Pressure (PP)**: Pressure of fluids (like water or gas) within the pores of the sediment or rock.
 
 ### Equation
 $$\[PP = \frac{(\sigma_v - \sigma_e)}{\alpha}\]$$
 Where:
-- \(\alpha\): Biot's effective stress coefficient, accounting for how pore pressure supports the overburden load.
+- $$\(\alpha\)$$: Biot's effective stress coefficient, accounting for how pore pressure supports the overburden load.
 
 ---
 
@@ -94,10 +94,10 @@ Where:
 - **Formula**:
 $$\[\sigma_v = \rho_s h g + \int_k^z \rho(z) g \, dz\]$$
 Where:
-- \(g\): Acceleration due to gravity (9.852 m/s²).
-- \(\rho(z)\): Density of sediments with depth.
-- \(h\): Seabed depth.
-- \(z\): Depth below the ocean floor.
+- $$\(g\)$$: Acceleration due to gravity (9.852 m/s²).
+- $$\(\rho(z)\)$$: Density of sediments with depth.
+- $$\(h\)$$: Seabed depth.
+- $$\(z\)$$: Depth below the ocean floor.
 
 ### Normal Compaction Trend
 As sediments get buried, they compact under increasing overburden stress, reducing porosity and altering properties like sonic travel time.
@@ -106,9 +106,9 @@ As sediments get buried, they compact under increasing overburden stress, reduci
 - **Formula**:
 $$\[PP_{\text{eaton}} = \sigma_v - (\sigma_v - P_h) \cdot \left(\frac{DT_n}{DT}\right)^3\]$$
 Where:
-- \(P_h\): Hydrostatic pressure (pressure from seawater above).
-- \(DT_n\): Sonic travel time in a low-permeability, normally compacted zone.
-- \(DT\): Observed sonic travel time in the target zone.
+- $$\(P_h\)$$: Hydrostatic pressure (pressure from seawater above).
+- $$\(DT_n\)$$: Sonic travel time in a low-permeability, normally compacted zone.
+- $$\(DT\)$$: Observed sonic travel time in the target zone.
 
 ---
 
@@ -118,15 +118,15 @@ Where:
 1. **Effective Stress Equation**:
 $$\[\sigma_e = \sigma_v - PP\]$$
 Where:
-- \(\sigma_v\): Overburden stress.
-- \(PP\): Pore pressure.
+- $$\(\sigma_v\)$$: Overburden stress.
+- $$\(PP\)$$: Pore pressure.
 
 2. **Bower’s Velocity-Effective Stress Model**:
 $$\[\sigma_v - PP = \left(\frac{V - V_o}{a}\right)^{1/b}\]$$
 Where:
-- \(V\): Observed velocity.
-- \(V_o\): Velocity at the seafloor.
-- \(a\) and \(b\): Fitting parameters (calculated from data).
+- $$\(V\)$$: Observed velocity.
+- $$\(V_o\)$$: Velocity at the seafloor.
+- $$\(a\)$$ and $$\(b\)$$: Fitting parameters (calculated from data).
 
 3. **Logarithmic Form**:
 - By taking the logarithm of the equation, it becomes linear: $$\(Y = bX + C\)$$, allowing for a linear fit to find \(a\) and \(b\).
