@@ -59,8 +59,8 @@ Equation:     $$PP=(σv−σe)/α$$
 Eaton’s Method for Pore Pressure Prediction:
 Vertical Stress (σv):
 o	Vertical stress depends on the weight of sediments and water above the measurement point.
-o          The formula for vertical stress (\(\sigma_v\)) is given as:
-                               \[\sigma_v = \rho_s h g + \int_k^z \rho(z) g \, dz\]
+o          The formula for vertical stress:
+$$(\(\sigma_v\)) =\[\sigma_v = \rho_s h g + \int_k^z \rho(z) g \, dz\]$$
 
 	g = acceleration due to gravity (9.852 m/s²),
 	ρ(z) = density of sediments with depth,
@@ -71,11 +71,7 @@ As sediments get buried, they compact under increasing overburden stress, which 
 
 
 Eaton’s Sonic Method:Uses sonic compressional travel time to estimate pore pressure: 
-(\(PP_{\text{eaton}}\)) is given as:
-
-\[
-PP_{\text{eaton}} = \sigma_v - (\sigma_v - P_h) \cdot \left(\frac{DT_n}{DT}\right)^3
-\]
+$$(\(PP_{\text{eaton}}\)) = \[PP_{\text{eaton}} = \sigma_v - (\sigma_v - P_h) \cdot \left(\frac{DT_n}{DT}\right)^3\]$$
 
  
 Ph = hydrostatic pressure (pressure from seawater above),
