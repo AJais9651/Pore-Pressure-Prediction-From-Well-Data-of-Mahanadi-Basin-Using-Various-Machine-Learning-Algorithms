@@ -59,8 +59,9 @@ Equation:     $$PP=(σv−σe)/α$$
 Eaton’s Method for Pore Pressure Prediction:
 Vertical Stress (σv):
 o	Vertical stress depends on the weight of sediments and water above the measurement point.
-o	It's calculated using:
-                             Where: $$P = ρ(z).g.h
+o          The formula for vertical stress (\(\sigma_v\)) is given as:
+                               \[\sigma_v = \rho_s h g + \int_k^z \rho(z) g \, dz\]
+
 	g = acceleration due to gravity (9.852 m/s²),
 	ρ(z) = density of sediments with depth,
 	h = seabed depth,
@@ -69,7 +70,13 @@ Normal Compaction Trend:
 As sediments get buried, they compact under increasing overburden stress, which reduces porosity and changes properties like sonic travel time.
 
 
-Eaton’s Sonic Method:Uses sonic compressional travel time to estimate pore pressure:
+Eaton’s Sonic Method:Uses sonic compressional travel time to estimate pore pressure: 
+(\(PP_{\text{eaton}}\)) is given as:
+
+\[
+PP_{\text{eaton}} = \sigma_v - (\sigma_v - P_h) \cdot \left(\frac{DT_n}{DT}\right)^3
+\]
+
  
 Ph = hydrostatic pressure (pressure from seawater above),
 DTn = sonic travel time in a low-permeability, normally compacted zone,
@@ -81,14 +88,19 @@ Key Concepts:
 1.	Effective Stress Equation:
 o	Effective stress is calculated as: $$σe=Sv−PP$$
 Where: 
+$$\sigma_v = S_v - PP$$
+
 	Sv: Overburden stress,
 	PP: Pore pressure.
 
 2.	Bower's Velocity-Effective Stress Model:
 o	This method relates effective stress to seismic wave velocity.
 o	The relationship is expressed as: 
-Where: 
-	V: Observed velocity,
+Where:The equation is given as:
+
+$$\sigma_v - PP = \left( \frac{V - V_o}{a} \right)^{1/b}$$
+
+        V: Observed velocity,
 	Vo: Velocity at the seafloor,
 	a and b: Fitting parameters (calculated from data).
 3.	Logarithmic Form:
