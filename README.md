@@ -81,9 +81,7 @@ Pore pressure (PP) represents the hydraulic forces within the pore spaces of por
 - **Pore Pressure (PP)**: Pressure of fluids (like water or gas) within the pores of the sediment or rock.
 
 ### Equation
-\[
-PP = \frac{(\sigma_v - \sigma_e)}{\alpha}
-\]
+$$\[PP = \frac{(\sigma_v - \sigma_e)}{\alpha}\]$$
 Where:
 - \(\alpha\): Biot's effective stress coefficient, accounting for how pore pressure supports the overburden load.
 
@@ -94,9 +92,7 @@ Where:
 ### Vertical Stress (\(\sigma_v\))
 - **Dependence**: Vertical stress depends on the weight of sediments and water above the measurement point.
 - **Formula**:
-\[
-\sigma_v = \rho_s h g + \int_k^z \rho(z) g \, dz
-\]
+$$\[\sigma_v = \rho_s h g + \int_k^z \rho(z) g \, dz\]$$
 Where:
 - \(g\): Acceleration due to gravity (9.852 m/s²).
 - \(\rho(z)\): Density of sediments with depth.
@@ -108,9 +104,7 @@ As sediments get buried, they compact under increasing overburden stress, reduci
 
 ### Eaton’s Sonic Method
 - **Formula**:
-\[
-PP_{\text{eaton}} = \sigma_v - (\sigma_v - P_h) \cdot \left(\frac{DT_n}{DT}\right)^3
-\]
+$$\[PP_{\text{eaton}} = \sigma_v - (\sigma_v - P_h) \cdot \left(\frac{DT_n}{DT}\right)^3\]$$
 Where:
 - \(P_h\): Hydrostatic pressure (pressure from seawater above).
 - \(DT_n\): Sonic travel time in a low-permeability, normally compacted zone.
@@ -122,24 +116,20 @@ Where:
 
 ### Key Concepts
 1. **Effective Stress Equation**:
-\[
-\sigma_e = \sigma_v - PP
-\]
+$$\[\sigma_e = \sigma_v - PP\]$$
 Where:
 - \(\sigma_v\): Overburden stress.
 - \(PP\): Pore pressure.
 
 2. **Bower’s Velocity-Effective Stress Model**:
-\[
-\sigma_v - PP = \left(\frac{V - V_o}{a}\right)^{1/b}
-\]
+$$\[\sigma_v - PP = \left(\frac{V - V_o}{a}\right)^{1/b}\]$$
 Where:
 - \(V\): Observed velocity.
 - \(V_o\): Velocity at the seafloor.
 - \(a\) and \(b\): Fitting parameters (calculated from data).
 
 3. **Logarithmic Form**:
-- By taking the logarithm of the equation, it becomes linear: \(Y = bX + C\), allowing for a linear fit to find \(a\) and \(b\).
+- By taking the logarithm of the equation, it becomes linear: $$\(Y = bX + C\)$$, allowing for a linear fit to find \(a\) and \(b\).
 
 4. **Results**:
 - Figures 1 to 16 show the estimated pore pressures for Wells NGHP-01-08A and NGHP-01-19B using both Bower’s and Eaton’s methods.
