@@ -143,5 +143,4 @@ Where:
 2. Models perform well with sonic, density, velocity, and gamma-ray logs, but accuracy increases further when Eaton's pore pressure and hydrostatic pressure are included in the training.
 3. Random Forest outperforms K-Nearest Neighbors, Decision Tree, and Extreme Gradient Boosting models.
 4. Using Eaton’s method with sonic, density, velocity, gamma, and hydrostatic pressure as inputs yields the best accuracy for Well NGHP-01-8A with the Random Forest model (Fig. 17).
-5. This study provides new insights into geomechanical processes in gas hydrate zones.
 
