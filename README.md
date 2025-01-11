@@ -90,7 +90,7 @@ $$\[PP = \frac{(\sigma_v - \sigma_e)}{\alpha}\]$$
 
 ## Eaton’s Method for Pore Pressure Prediction
 
-### Vertical Stress (\(\sigma_v\))
+### Vertical Stress ($$\(\sigma_v\)$$)
 - **Dependence**: Vertical stress depends on the weight of sediments and water above the measurement point.
 - **Formula**:
 $$\[\sigma_v = \rho_s h g + \int_k^z \rho(z) g \, dz\]$$
