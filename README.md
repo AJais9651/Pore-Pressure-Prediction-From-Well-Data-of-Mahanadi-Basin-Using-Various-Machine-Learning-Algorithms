@@ -144,3 +144,19 @@ Where:
 3. Random Forest outperforms K-Nearest Neighbors, Decision Tree, and Extreme Gradient Boosting models.
 4. Using Eaton’s method with sonic, density, velocity, gamma, and hydrostatic pressure as inputs yields the best accuracy for Well NGHP-01-8A with the Random Forest model (Fig. 17).
 
+### Refrences
+1. Lall, M., and Scientists, N. E. (2015). Indian national gas hydrate program expedition 01 report. Scientific Investigations Report 2012–5054, U.S. Geological Survey. ISSN2328-0328 (online).
+2. https://pubs.usgs.gov/sir/2012/5054/pdf/sir2012-5054_chap_8.pdf
+3. https://pubs.usgs.gov/sir/2012/5054/pdf/sir2012-5054_chap_19.pdf
+4. Ahmed, A., Elkatatny, S., Ali, A., Mahmoud, M., and Abdulraheem, A. (2019). New model for pore pressure prediction while drilling using artificial neural networks. Arabian Journal for Science and 
+   Engineering, 44(6):6079–6088.
+5. Biot, M. A. (1961). General Theory of Three-Dimensional Consolidation. Journal of Applied Physics, 12(2):155–164.
+6. Bowers, G. L. (1995). Pore Pressure Estimation From Velocity Data: Accounting for Overpressure Mechanisms Besides Undercompaction. SPE Drilling Completion, 10(02):89–95.
+
+
+
+
+
+
+
+
